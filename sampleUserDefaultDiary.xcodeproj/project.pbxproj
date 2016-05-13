@@ -14,6 +14,7 @@
 		1B0DF9A71CE58DC6008DC765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0DF9A51CE58DC6008DC765 /* LaunchScreen.storyboard */; };
 		1B0DF9B21CE58DC6008DC765 /* sampleUserDefaultDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0DF9B11CE58DC6008DC765 /* sampleUserDefaultDiaryTests.swift */; };
 		1B0DF9BD1CE58DC6008DC765 /* sampleUserDefaultDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0DF9BC1CE58DC6008DC765 /* sampleUserDefaultDiaryUITests.swift */; };
+		1B0DF9CB1CE5946A008DC765 /* DiaryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0DF9CA1CE5946A008DC765 /* DiaryListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1B0DF9B81CE58DC6008DC765 /* sampleUserDefaultDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleUserDefaultDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0DF9BC1CE58DC6008DC765 /* sampleUserDefaultDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleUserDefaultDiaryUITests.swift; sourceTree = "<group>"; };
 		1B0DF9BE1CE58DC6008DC765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0DF9CA1CE5946A008DC765 /* DiaryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1B0DF9A31CE58DC6008DC765 /* Assets.xcassets */,
 				1B0DF9A51CE58DC6008DC765 /* LaunchScreen.storyboard */,
 				1B0DF9A81CE58DC6008DC765 /* Info.plist */,
+				1B0DF9CA1CE5946A008DC765 /* DiaryListViewController.swift */,
 			);
 			path = sampleUserDefaultDiary;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B0DF99F1CE58DC6008DC765 /* ViewController.swift in Sources */,
+				1B0DF9CB1CE5946A008DC765 /* DiaryListViewController.swift in Sources */,
 				1B0DF99D1CE58DC6008DC765 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
